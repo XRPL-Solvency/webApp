@@ -2,10 +2,10 @@ import React from 'react';
 
 function DownloadButtonV() {
   const handleDownload = () => {
-    const fileUrl = 'https://example.com/myfile.exe';
+    const fileUrl = 'https://github.com/XRPL-Solvency/localExecutables/raw/main/App/ring_proof_verifier.exe'; 
     const link = document.createElement('a');
     link.href = fileUrl;
-    link.setAttribute('download', 'myfile.exe');
+    link.setAttribute('download', 'ring_proof_verifier.exe');
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
