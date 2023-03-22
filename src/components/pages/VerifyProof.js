@@ -98,7 +98,7 @@ function VerifyProof() {
             <div key={index} className="card">
               <div className="card-header">
                 <h2>SBT {index + 1}</h2>
-                <div className="status">{nft.Flags === 8 ? 'Valid' : 'Invalid'}</div>
+                <div className="status">{nft.Flags === 1 ? 'Valid' : 'Invalid'}</div>
               </div>
               <div className="card-content">
                 <p>
