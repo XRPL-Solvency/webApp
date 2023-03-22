@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './styles/verify.css';
-import DownloadButton from "./second/DownloadButton";
+import DownloadButtonV from "./second/DownloadButtonV";
 
 
 function VerifyProof() {
@@ -71,7 +71,7 @@ function VerifyProof() {
             <h2>Download Proof Verifier executable</h2>
             <p>💻<i>Download the "ring proof" verifier to verify a proof on your computer.</i><br></br>
                 First retrieve the data via our online tool on this page and pass it into the dowloaded program interface.</p>
-                <DownloadButton/>
+                <DownloadButtonV/>
       </div>
       <div className="main__listing">
             <h2>Check Solvency Proof and copy the data</h2>
